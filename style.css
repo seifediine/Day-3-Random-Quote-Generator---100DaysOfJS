@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Poppins&display=swap");
+
+body {
+  height: 100vh;
+  margin: 30px auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  position: relative;
+  max-width: 900px;
+  height: auto;
+  margin-top: 40px;
+  padding: 30px;
+  background: #eee;
+  border-radius: 7px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-family: "Pacifico", sans-serif;
+}
+
+.quote {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 1.2rem;
+}
+
+.author {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  padding-bottom: 20px;
+  font-family: "Dancing Script", sans-serif;
+  color: darkgreen;
+}
+
+.right {
+  float: right;
+  margin-top: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 50px;
+  background: #333;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-family: "Pacifico", sans-serif;
+  letter-spacing: 3px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
